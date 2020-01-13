@@ -1,4 +1,5 @@
 import React from "react";
+import {GiBrutalHelm} from "react-icons/gi";
 
 export const Header = () => {
 const x = 1;
@@ -11,7 +12,9 @@ return (
             <div className="settings">
                 <ul>
                     <li>+</li>
-                    <li>slice here</li>
+                    <li>
+                        <GiBrutalHelm />
+                    </li>
                 </ul>
             </div>
         </nav>
